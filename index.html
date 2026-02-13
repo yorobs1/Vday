@@ -61,7 +61,9 @@
 img.art {
   border-radius: 18px;
   object-fit: cover;
+  max-height: 220px;
 }
+
 
 
     h1 {
@@ -123,11 +125,15 @@ img.art {
       margin: 10px 0;
     }
 
-    .fireworks {
-      width: min(380px, 90vw);
-      margin: 0 auto;
-      display: block;
-    }
+.fireworks {
+  width: min(320px, 85vw);
+  border-radius: 16px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
     @keyframes pop {
       from { transform: scale(.96); opacity: 0; }
@@ -152,14 +158,17 @@ img.art {
     </section>
 
     <!-- HINT -->
-    <div class="hint" id="hint">“No” seems a bit shy 😈</div>
+    <div class="hint" id="hint">“No” is not an option 😈</div>
 
     <section class="result" id="result">
-      <h2>YAY! 🎉</h2>
+      <h2>She Said Yes! 🎉</h2>
+      <p style="font-size: 22px; margin-top: 8px;">
+    Best girlfriend ever 💕
+  </p>
       <img
         class="fireworks"
-        src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif"
-        alt="Fireworks"
+        src="us.png"
+        alt="Us"
       />
     </section>
   </main>
@@ -273,6 +282,7 @@ img.art {
   </script>
 </body>
 </html>
+
 
 
 
